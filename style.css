@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.Schedule-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Schedule-day {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 12px;
+  width: 28%;
+  margin: 8px;
+}
+
+.Schedule-title {
+  font-size: 32px;
+}
+
+.Schedule-todo.done {
+  text-decoration: line-through;
+}
+
+.Schedule-reorderButtonUp,
+.Schedule-reorderButtonDown {
+  cursor: pointer;
+  padding: 0;
+}
+
+.Schedule-todo.dragstart {
+  opacity: 0.4;
+}
